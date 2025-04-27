@@ -1,4 +1,7 @@
-1. Создал коллекции TreeMap для хранения значений Римских цифр
-2. Метод calculate в котором вызывался метод findOperator для выеснения того, какая операция сейчас будет выполнятся взяв строку и разбить её на символы при этом происходил поиск нужного символа через цикл foreach
-3. Методы типа bool: isRoman и isArabic для выеснения с каким видом цифр мы работаем
-4. romanToInt и intToRoman для преобразования значений
+1.Created TreeMap collections to store the values of Roman numerals for quick lookup.
+
+2. Implemented a calculate method, which calls the findOperator method to determine which operation to perform by splitting the input string into characters and using a foreach loop to search for the operator symbol.
+
+3. Developed two boolean methods, isRoman and isArabic, to identify the numeral system of the given input.
+
+4. Implemented romanToInt and intToRoman methods to convert between Roman and Arabic numeral formats.
